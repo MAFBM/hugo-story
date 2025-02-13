@@ -6,6 +6,7 @@
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
 /*
 	Hugo Story by CaressOfSteel
@@ -13,6 +14,11 @@
 	Ported from Story by HTML5UP.
 	This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
 */
+.oooh-baby-regular {
+	font-family: "Oooh Baby", serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 // Breakpoints.
 
