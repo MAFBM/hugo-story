@@ -8,6 +8,9 @@
 /* Spotlight (transitions) */
 
 	.spotlight {
+		p {
+			font-size: 1.125rem;
+		}
 
 		// Mixin.
 			@mixin transition-spotlight($event) {
@@ -313,6 +316,13 @@
 						position: relative;
 					}
 				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+			.spotlight-images {
+				height: auto;
+				max-height: 40vh;
 			}
 		}
 
