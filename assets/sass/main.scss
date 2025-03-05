@@ -24,6 +24,20 @@
 	color: black;
 }
 
+p {
+	font-size: 1.125rem;
+}
+
+.regulation {
+	display: none;
+	justify-content: center;
+	margin: 2rem;
+
+	.wrapper {
+	max-width: 1200px;
+	}
+}
+
 // Breakpoints.
 
 	@include breakpoints((

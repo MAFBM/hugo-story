@@ -339,4 +339,22 @@
 
 						});
 
+	document.getElementById("impressum-link").addEventListener("click", function() {
+        var impressumSection = document.getElementById("impressum");
+        if (impressumSection.style.display === "none" || impressumSection.style.display === "") {
+            impressumSection.style.display = "flex";  
+        } else {
+            impressumSection.style.display = "none";   
+        }
+    });
+	document.getElementById("datenschutz-link").addEventListener("click", function() {
+        var impressumSection = document.getElementById("datenschutz");
+        if (impressumSection.style.display === "none" || impressumSection.style.display === "") {
+            impressumSection.style.display = "flex";  
+			this.scrollTo('#datenschutz-heading');
+        } else {
+            impressumSection.style.display = "none";   
+        }
+    });
+
 })(jQuery);
