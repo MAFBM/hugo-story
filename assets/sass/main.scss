@@ -5,8 +5,24 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+// @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+@font-face {
+  font-family: 'Oooh Baby';
+  src: url('/webfonts/OoohBaby-Regular.woff2') format('woff2'),
+       url('/webfonts/OoohBaby-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('/webfonts/SourceSansPro-Light.woff2') format('woff2'),
+       url('/webfonts/SourceSansPro-Light.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /*
 	Hugo Story by CaressOfSteel
