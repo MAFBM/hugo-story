@@ -48,6 +48,13 @@ p {
 	font-size: 1.25rem;
 }
 
+.inverted {
+	color: white;
+	&:hover {
+		color: black;
+	}
+}
+
 .regulation {
 	display: none;
 	justify-content: center;
